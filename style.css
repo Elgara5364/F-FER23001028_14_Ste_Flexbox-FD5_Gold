@@ -1,9 +1,11 @@
-*, body, html {
+*,
+body,
+html {
   color: black;
   text-decoration: none;
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 body {
@@ -37,23 +39,20 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  color: #20262A;
+  color: #20262a;
 }
 
-.container-header .navbar .login button {
+.container-header .navbar .login .button {
+  width: 120px;
+  padding: 17px 36px;
   background-color: white;
-  display: inline-flex;
-  align-items: center;
-  height: 52px;
-  /* flex-shrink: 0; */
-  padding: 20px 36px;
-  border: 1px solid #00B6F0;
+  border: 1px solid #00b6f0;
   border-radius: 82px;
 }
 
-.container-header .navbar .login a{
+.container-header .navbar .login a {
   text-decoration: none;
-  color: #00B6F0;
+  color: #00b6f0;
   font-weight: 600;
 }
 
@@ -69,12 +68,12 @@ body {
   text-align: center;
 }
 
-.text .headline h2{
+.text .headline h2 {
   width: 490px;
   height: auto;
   padding: 10px;
   font-size: 60px;
-  letter-spacing: .2px;
+  letter-spacing: 0.2px;
   line-height: 78px;
 }
 
@@ -83,7 +82,7 @@ body {
   height: auto;
   font-size: 24px;
   line-height: 30px;
-  letter-spacing: .2px;
+  letter-spacing: 0.2px;
 }
 
 .container-header .button {
@@ -95,13 +94,13 @@ body {
   margin: auto;
 }
 
-.container-header .button button{
+.container-header .button a {
   margin-right: 5px;
   padding: 10px 40px;
   align-items: center;
   border-radius: 85px;
   color: #fff;
-  background-color: #00B6F0;
+  background-color: #00b6f0;
 }
 
 .flatbrowser {
@@ -110,8 +109,6 @@ body {
 }
 
 /* CONTAINER HEADER CODE END  */
-
-
 
 /* LIGHTCTA1 CODE START  */
 
@@ -125,9 +122,8 @@ body {
   text-align: center;
 }
 
-
 .lightcta1 .content h3 {
-  color: #F3CD03;
+  color: #f3cd03;
   padding: 10px;
 }
 
@@ -154,28 +150,26 @@ body {
   justify-content: center;
   margin: auto;
 }
-.lightcta1 .content .button button:first-child{
+.lightcta1 .content .button a:first-child {
   margin-right: 5px;
   padding: 10px 40px;
   align-items: center;
   border-radius: 85px;
   color: #fff;
-  background-color: #00B6F0;
+  background-color: #00b6f0;
 }
 
-.lightcta1 .content .button button{
+.lightcta1 .content .button a {
   margin-left: 5px;
   padding: 10px 40px;
   align-items: center;
   border-radius: 85px;
-  border: 2px solid #00B6F0;
-  color: #00B6F0;
+  border: 2px solid #00b6f0;
+  color: #00b6f0;
   background-color: #fff;
 }
 
 /* END LIGHT CTA 1  */
-
-
 
 /* START LIGHT CONTENT 5  */
 .lcontent5 {
@@ -205,32 +199,32 @@ body {
   padding: 10px;
 }
 
-.lcontent5 h1 ,
+.lcontent5 h1,
 .lcontent6 h1 {
   font-size: 36px;
-  letter-spacing: .1px;
+  letter-spacing: 0.1px;
   padding: 10px 0 17px;
-  color: #20262A;
+  color: #20262a;
 }
 
-.lcontent5 h3 ,
+.lcontent5 h3,
 .lcontent6 h3 {
   width: 459px;
   font-size: 21px;
   font-weight: 300;
   line-height: 33px;
   word-spacing: 1px;
-  letter-spacing: .8px;
-  color: #5C5C5C;
-  padding: 10px 0  17px;
+  letter-spacing: 0.8px;
+  color: #5c5c5c;
+  padding: 10px 0 17px;
 }
 
-.lcontent5 a ,
+.lcontent5 a,
 .lcontent6 a {
   font-size: 15px;
-  letter-spacing: .2px;
+  letter-spacing: 0.2px;
   text-transform: uppercase;
-  color: #00B6F0;
+  color: #00b6f0;
 }
 
 .lcontent5 .content .tcontent {
@@ -245,15 +239,13 @@ body {
 }
 
 .lcontent5 .content .frame18 img,
-.lcontent6 .content .frame18 img  {
+.lcontent6 .content .frame18 img {
   width: 100%;
   height: 100%;
   margin: auto;
 }
 
 /* AKHIR LIGHT CONTENT 5 CODE  */
-
-
 
 /* START LIGHT CONTENT 6 */
 .lcontent6 {
@@ -295,8 +287,6 @@ body {
 }
 /* AKHIR LIGHT CONTENT 6  */
 
-
-
 /* START LIGHT CTA7  */
 .lcta7 {
   width: 1162px;
@@ -328,7 +318,7 @@ body {
   font-style: normal;
   font-weight: 600;
   line-height: 56px;
-  letter-spacing: .2px;
+  letter-spacing: 0.2px;
   margin: auto;
 }
 
@@ -337,21 +327,20 @@ body {
 }
 
 .lcta7 .tcontent .sub {
-  padding:15px 0 82px;
+  padding: 15px 0 82px;
 }
 
-.lcta7 .tcontent .progressbar p{
+.lcta7 .tcontent .progressbar p {
   display: inline;
-  width:667px ;
+  width: 667px;
   height: auto;
   text-align: center;
   font-size: 15px;
   font-style: normal;
   font-weight: 450;
   line-height: 30px;
-  letter-spacing: .2px;
+  letter-spacing: 0.2px;
 }
-
 
 .lcta7 .progressbar {
   width: 757px;
@@ -362,32 +351,31 @@ body {
 .lcta7 .progressbar .rectangle1 {
   width: 100%;
   height: 15px;
-  background-color: #F3F5F8;
+  background-color: #f3f5f8;
   border-radius: 9.5px;
-
 }
 
 .lcta7 .progressbar .rectangle2 {
   width: 377px;
   height: 15px;
   border-radius: 9.5px;
-  background-color: #00B6F0;
+  background-color: #00b6f0;
   position: absolute;
   top: 0px;
   display: flex;
   gap: 45px;
 }
 
-.lcta7 .content .tcontent button {
+.lcta7 .content .tcontent .button {
+  position: relative;
+  top: 67px;
   box-sizing: border-box;
   padding: 13px 30px;
-  margin-top: 67px;
   border-radius: 85px;
   color: #fff;
-  background-color: #00B6F0;
+  background-color: #00b6f0;
 }
 /* END LIGHT CTA7 */
-
 
 /* START LIGHT TESTIMONIAL  */
 .ltestimoni {
@@ -402,9 +390,9 @@ body {
   align-items: center;
 }
 
-.ltestimoni .title ,
-.ltestimoni .brands ,
-.ltestimoni .client ,
+.ltestimoni .title,
+.ltestimoni .brands,
+.ltestimoni .client,
 .ltestimoni button {
   padding: 10px;
 }
@@ -424,12 +412,12 @@ body {
   width: 530px;
   font-size: 18px;
   font-weight: 450;
-  letter-spacing: .2px;
+  letter-spacing: 0.2px;
   line-height: 30px;
-  word-spacing: .8px;
+  word-spacing: 0.8px;
 }
 
-.ltestimoni .avatar .desc h3, 
+.ltestimoni .avatar .desc h3,
 .ltestimoni .avatar .desc h5 {
   font-size: 18px;
   font-weight: 300;
@@ -440,16 +428,14 @@ body {
   font-weight: bolder;
 }
 
-.ltestimoni button {
-  width: 200px;
+.ltestimoni .client .button {
   border-radius: 85px;
   color: #fff;
-  background-color: #00B6F0;
-  padding: 15px 0px;
-  box-sizing: border-box;
+  background-color: #00b6f0;
+  padding: 10px 35px;
 }
-/* END LIGHT TESTIMONIAL  */
 
+/* END LIGHT TESTIMONIAL  */
 
 /* START PRICING  */
 .pricing {
@@ -467,7 +453,6 @@ body {
   display: flex;
   justify-content: space-between;
   /* gap: 167px; */
-
 }
 
 .tcontent1 {
@@ -476,7 +461,7 @@ body {
   color: #fff;
 }
 
-.tcontent1 h2{
+.tcontent1 h2 {
   color: #fff;
   font-size: 40px;
   padding-bottom: 16px;
@@ -513,31 +498,31 @@ body {
 .frame30 {
   width: 250px;
   display: flex;
-  padding:0px 10px 0 0;
+  padding: 0px 10px 0 0;
 }
 
 .frame30 h1 {
-  color: #F3CD03;
+  color: #f3cd03;
   font-size: 60px;
 }
 
-.frame30 h3{
+.frame30 h3 {
   width: auto;
   height: auto;
   font-size: 24px;
   line-height: 1.5;
 }
 
-.tcontent2 button{ 
-  width: 150px;
-  height: 40px;
+.tcontent2 .button {
+  position: relative;
+  top: 15px;
+  padding: 10px 35px;
   border-radius: 85px;
   color: #fff;
-  background-color: #00B6F0;
+  background-color: #00b6f0;
 }
 
 /* END PRICING  */
-
 
 /* START LIGHTING CONTENT 2  */
 .lcontent2 {
@@ -549,7 +534,7 @@ body {
 
 .lcontent2 .content {
   width: 987px;
-  height: 343px;
+  height: 230px;
   display: flex;
   gap: 47px;
 }
@@ -561,7 +546,7 @@ body {
   font-style: normal;
   font-size: 36px;
   font-weight: 450;
-  letter-spacing: .1px;
+  letter-spacing: 0.1px;
   line-height: 50px;
 }
 
@@ -572,29 +557,25 @@ body {
 }
 
 .lcontent2 .par p {
-  font-family: 'Roboto', sans-serif;
-  color:#5C5C5C ;
+  font-family: "Roboto", sans-serif;
+  color: #5c5c5c;
   font-size: 19px;
   word-spacing: 1.5px;
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
-  letter-spacing: .2px;
+  letter-spacing: 0.2px;
 }
 
-.lcontent2 .par p:first-child{
+.lcontent2 .par p:first-child {
   padding-bottom: 35px;
 }
 
-.lcontent2 .trow button{
-  width: 180px;
-  /* height: 20px; */
-  text-align: center;
-  box-sizing: border-box;
-  padding: 14px 0px;
+.lcontent2 .trow .button {
+  padding: 10px 35px;
   border-radius: 85px;
   color: #fff;
-  background-color: #00B6F0;
+  background-color: #00b6f0;
 }
 
 /* END LIGHT CONTENT 2 */
@@ -617,7 +598,7 @@ body {
   justify-content: space-around;
 }
 
-.lfooter .socmed a{
+.lfooter .socmed a {
   padding: 10px;
 }
 /* END FOOTER  */
