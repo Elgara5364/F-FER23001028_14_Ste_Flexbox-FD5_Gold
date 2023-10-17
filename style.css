@@ -9,7 +9,6 @@ html {
 }
 
 body {
-  width: 1282px;
   height: auto;
   margin: auto;
 }
@@ -439,9 +438,7 @@ body {
 
 /* START PRICING  */
 .pricing {
-  margin: auto;
   background-color: #182333;
-  width: 1242px;
   height: 296px;
   padding: 100px 20px;
 }
